@@ -35,3 +35,34 @@ body {
   gap: 20px;
   font-weight: bold;
 }
+
+.header {
+  padding: 20px 40px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+.search input {
+  width: 80%;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 20px;
+  background: #e2e8f0;
+}
+.user, .buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: end;
+  align-items: center;
+}
+.greeting p { margin: 0; }
+.greeting h2 { margin: 4px 0 0; }
+.buttons button {
+  padding: 8px 24px;
+  border: none;
+  border-radius: 20px;
+  background: #1992d4;
+  color: white;
+  font-weight: bold;
+}
